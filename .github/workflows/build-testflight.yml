@@ -1,7 +1,7 @@
 name: Build and TestFlight
 
 # Godot（Windows）で書き出した Xcode プロジェクト（build/ios を tools/ios_post.py で仕上げたもの）を
-# zip にして Release に置き、ここ（macOS）で署名して TestFlight へ上げる（THE UNNUMBERED 鎖の軍団）。
+# zip にして Release に置き、ここ（macOS）で署名して TestFlight へ上げる（ミーアキャット・サバンナ）。
 # 署名は「ASC API キー＋自動署名（クラウド管理の配布証明書）」。
 on:
   workflow_dispatch:
